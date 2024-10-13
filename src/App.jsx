@@ -14,12 +14,12 @@ const posts = [
     author: {
       avatarUrl: 'https://avatars.githubusercontent.com/u/114531262?v=4',
       nome: 'Emanuel Fortes',
-      role: 'Developer',
+      role: 'React Developer',
     },
     content: [
-      { type: 'paragraph', content: 'Fala Galera' },
-      { type: 'paragraph', content: 'Acabou de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return evento' },
-      { type: 'link', content: 'Jane.design/doctorcare' }
+      { type: 'paragraph', content: 'Fala Galera!' },
+      { type: 'paragraph', content: 'Sou um Desenvolvedor React focado em criar interfaces modernas e interativas. Apaixonado por transformar desafios em experiências digitais incríveis.' },
+      { type: 'link', content: '#ReactJS' }
     ],
     publishedAt: new Date('2024-09-28 20:00:00')
   },
@@ -32,9 +32,9 @@ const posts = [
 
     },
     content: [
-      { type: 'paragraph', content: 'Fala Galera' },
-      { type: 'paragraph', content: 'Acabou de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return evento' },
-      { type: 'link', content: 'Jane.design/doctorcare' }
+      { type: 'paragraph', content: 'Fala minha gente!' },
+      { type: 'paragraph', content: 'Sou um desenvolvedor Python apaixonado por resolver problemas com código simples e eficiente. Sempre em busca de novos desafios e aprendizado constante.' },
+      { type: 'link', content: '#Python' }
     ],
     publishedAt: new Date('2024-09-27 20:00:00'),
   }
