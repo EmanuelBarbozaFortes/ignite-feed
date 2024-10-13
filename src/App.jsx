@@ -1,4 +1,4 @@
-import { Header } from './components/Header';
+import { Header } from './components/header';
 import { Sidebar } from './components/Sidebar';
 import { Post } from './components/Post';
 
@@ -6,6 +6,7 @@ import { Post } from './components/Post';
 import style from './App.module.css'
 
 import './global.css'
+
 
 const posts = [
   {
@@ -43,7 +44,7 @@ const posts = [
 export function App() {
   return (
     <div className="style.">
-      <Header />
+      <Header/>
       <div className={style.wrapper}>
         <Sidebar />
         <main>
