@@ -37,7 +37,7 @@ const posts = [
       { type: 'link', content: '#Python' }
     ],
     publishedAt: new Date('2024-09-27 20:00:00'),
-  }
+  }, 
 ];
 
 
